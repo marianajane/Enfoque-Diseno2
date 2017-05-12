@@ -79,16 +79,31 @@ a {
   width: 50%;
   display:flex;
   flex-direction:column;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 2% 2% 0;
+}
+
+.section-frame {
+  width: 100%;
+  background-color: #83AEBD;
+  color:white;
+  display:flex;
+  flex-direction: column;
+}
+
+.tittle > h2 {
+	margin: 1px;
+}
+
+.section-form {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
 }
 
-.section-frame {
-	width: 100%;
-  	display:flex;
-  	flex-direction: column;
-  	justify-content: center;
-}
 
 footer {
 	text-align: center;
