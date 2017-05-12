@@ -3,11 +3,11 @@ body {
   	padding:0;
   	margin:0;
   	font-family: 'Indie Flower', cursive;
-	background-color: #EEE9F0;
+	background-color: #F4F4F4;
 }
 
 nav {
-	background-color: grey;
+	background-color: #D8D7D9;
 }
 
 .flex-nav {
@@ -45,39 +45,56 @@ a {
   position:absolute;
   margin-top: 2%;
   text-shadow: 2px 2px #710C99;
+  font-size: 5vw;
 }
 
+/*Sección 2*/
+
+.section-2 {
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  font-size: 1.5vw;
+}
+
+.tittle {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  font-size: 2.5vw;
+}
+
+.container-row {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.container-col {
+  width: 50%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-frame {
+	width: 100%;
+  	display:flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
 
 footer {
 	text-align: center;
   	background: grey;
   	color: white;
   	margin-right: 0;
+  	font-size: 1.5vw;
 }
 
-@media only screen and (min-width: 1200px) {
-    body {
-        font-size: 2.5vw;
-    }
-}
-@media only screen and (max-width: 1024px) {
-    body {
-        font-size: 2.5vw;
-    }
-}
-@media only screen and (max-width: 768px) {
-    body {
-        font-size: 2.5vw;
-    }
-}
-@media only screen and (max-width: 480px) {
-    body {
-        font-size: 2.5vw;
-    }
-}
-@media only screen and (max-width: 320px) {
-    body {
-        background-color: lightblue;
-        font-size:  2vw;
-    }
-}
